@@ -1,4 +1,4 @@
-export const GENERATOR_NAME = 'prisma-generator-omit-extra-fields';
+export const GENERATOR_NAME = 'nbiladoniga-prisma-generator-omit-extra-fields';
 export const DEFAULT_OUTPUT_PATH = './omit-extra-fields.ts'
 
 export const BASE_PRISMA_TYPES_TO_TS = {
@@ -10,4 +10,5 @@ export const BASE_PRISMA_TYPES_TO_TS = {
   'Bytes': 'string',
   'Boolean': 'boolean',
   'DateTime': 'Date',
+  'Json': 'object',
 } as const;

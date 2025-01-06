@@ -1,6 +1,6 @@
 import path from 'path';
 import { generatorHandler, GeneratorOptions } from '@prisma/generator-helper';
-import { version } from 'prisma-generator-omit-extra-fields/package.json';
+import { version } from 'nbiladoniga-prisma-generator-omit-extra-fields/package.json';
 
 import { DEFAULT_OUTPUT_PATH } from './constants';
 
